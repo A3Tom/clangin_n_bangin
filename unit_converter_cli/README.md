@@ -5,23 +5,23 @@
 Build a small command-line unit converter that accepts simple inputs and prints converted values.
 
 ## MVP (5 pts total) 
-[ ] Parse and validate arguments.  
-[ ] Reject unknown units with a clear error and non-zero exit.  
-[ ] Reject cross-category conversions (e.g., `kg` to `m`) with a clear error and non-zero exit.  
-[ ] Correct conversions for all supported units.  
-[ ] `--list` prints all units grouped by category and exits 0.  
+- [ ] Parse and validate arguments.  
+- [ ] Reject unknown units with a clear error and non-zero exit.  
+- [ ] Reject cross-category conversions (e.g., `kg` to `m`) with a clear error and non-zero exit.  
+- [ ] Correct conversions for all supported units.  
+- [ ] `--list` prints all units grouped by category and exits 0.  
 
 ## Bonus Points (5 pts total) 
-[ ] `--help` prints usage and exits 0.  
-[ ] Warning-clean build: `-Wall -Wextra -Wpedantic` (ideally `-Werror`).  
-[ ] Good error messages to `stderr`.  
-[ ] Deterministic formatting based on flags.  
-[ ] Missing args / extra args -> exits non-zero and prints usage hint
+- [ ] `--help` prints usage and exits 0.  
+- [ ] Warning-clean build: `-Wall -Wextra -Wpedantic` (ideally `-Werror`).  
+- [ ] Good error messages to `stderr`.  
+- [ ] Deterministic formatting based on flags.  
+- [ ] Missing args / extra args -> exits non-zero and prints usage hint
 
 ## Super Bonus Points (6 pts total) 
-[ ] (2 pts) Precision CLI option.  
-[ ] (2 pts)  Scientific notation CLI option.  
-[ ] (2 pts)  Rounding CLI option.  
+- [ ] (2 pts) Precision CLI option.  
+- [ ] (2 pts)  Scientific notation CLI option.  
+- [ ] (2 pts)  Rounding CLI option.  
 
 ## CLI Specification
 
